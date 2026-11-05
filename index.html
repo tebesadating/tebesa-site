@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tebesa Dating – Telegram Dating Bot for Ethiopia | ፍቅር ጓደኛ በቴሌግራም</title>
+<meta name="description" content="Tebesa Dating is a private Telegram dating bot for Ethiopia. No app to download, simple signup, your Telegram ID and username are never shown. Amharic, English, Afaan Oromo, Tigrinya and Somali. በቴሌግራም የፍቅር ጓደኛ ይፈልጉ።">
+<meta name="keywords" content="Tebesa Dating, Telegram dating bot, Ethiopia dating, Addis Ababa dating, Ethiopian dating app, Amharic dating, Oromo dating, Tigrinya dating, Somali dating, ፍቅር ጓደኛ, የፍቅር ጓደኛ መፈለጊያ, ዴቲንግ በቴሌግራም">
+<link rel="canonical" href="https://tebesadating.github.io/tebesa-site/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#120d10">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tebesa Dating – Telegram Dating Bot for Ethiopia">
+<meta property="og:description" content="No app to download. Simple signup. Your Telegram ID and username stay private. 5 languages.">
+<meta property="og:url" content="https://tebesadating.github.io/tebesa-site/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tebesa Dating – Telegram Dating Bot for Ethiopia">
+<meta name="twitter:description" content="Private, multilingual dating inside Telegram. No app download.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "Tebesa Dating",
+      "url": "https://t.me/tebesadating_bot",
+      "description": "A private dating bot and mini app inside Telegram for people in Ethiopia. No download, simple signup, Telegram ID and username never visible to other users.",
+      "applicationCategory": "SocialNetworkingApplication",
+      "operatingSystem": "Any (runs inside Telegram)",
+      "inLanguage": ["am", "en", "om", "ti", "so"],
+      "audience": { "@type": "PeopleAudience", "requiredMinAge": 18 },
+      "offers": [
+        { "@type": "Offer", "name": "Gold Daily (1 day)", "price": "50", "priceCurrency": "ETB" },
+        { "@type": "Offer", "name": "Gold Weekly (7 days)", "price": "200", "priceCurrency": "ETB" },
+        { "@type": "Offer", "name": "Gold Monthly (30 days)", "price": "600", "priceCurrency": "ETB" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Tebesa Dating?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Tebesa Dating is a dating bot and mini app that runs inside Telegram. You swipe, match and chat without downloading any app." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to download an app?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Tebesa works entirely inside Telegram. Open the bot at t.me/tebesadating_bot and start." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my Telegram username visible to other users?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Your Telegram ID and username are never shown to other users." }
+        },
+        {
+          "@type": "Question",
+          "name": "Which languages does Tebesa support?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Amharic, English, Afaan Oromo, Tigrinya and Somali." }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Tebesa Gold cost and how can I pay?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Gold costs 50 ETB per day, 200 ETB per week or 600 ETB per month. You can pay with Telebirr or with Telegram Stars (150, 450 or 1,150 Stars)." }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Tebesa Gold include?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Unlimited swipes and likes, undo your last swipe, see who liked you, send up to 3 messages per day before matching, and a stealth mode for more private browsing." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+  :root { --bg:#120d10; --card:#1d171b; --text:#f4eef1; --muted:#b5a8af; --pink:#ff4f8b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Ethiopic",sans-serif; line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:0 16px; }
+  header.hero { padding:56px 0 32px; text-align:center; }
+  h1 { font-size:2rem; margin:0 0 12px; line-height:1.25; }
+  h1 span { color:var(--pink); }
+  h2 { font-size:1.4rem; margin:36px 0 12px; }
+  h3 { font-size:1.05rem; margin:18px 0 4px; }
+  p { margin:0 0 12px; }
+  .muted { color:var(--muted); }
+  .btn { display:inline-block; background:var(--pink); color:#fff; text-decoration:none; font-weight:700; padding:14px 28px; border-radius:999px; margin-top:8px; }
+  .card { background:var(--card); border-radius:16px; padding:16px 18px; margin:12px 0; }
+  ul { padding-left:20px; margin:8px 0; }
+  li { margin:6px 0; }
+  .prices { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+  .price { background:var(--card); border-radius:16px; padding:16px; text-align:center; }
+  .price b { font-size:1.5rem; display:block; }
+  hr { border:0; border-top:1px solid #33292f; margin:48px 0 0; }
+  footer { padding:32px 0 48px; text-align:center; color:var(--muted); font-size:.9rem; }
+  a { color:var(--pink); }
+</style>
+</head>
+<body>
+
+<!-- ============ ENGLISH ============ -->
+<main class="wrap" lang="en">
+  <header class="hero">
+    <h1><span>Tebesa Dating</span><br>Dating on Telegram for Ethiopia</h1>
+    <p class="muted">Meet new people, match and chat. No app to download. Your Telegram ID and username stay private.</p>
+    <a class="btn" href="https://t.me/tebesadating_bot">Open in Telegram</a>
+  </header>
+
+  <section>
+    <h2>Why Tebesa?</h2>
+    <div class="card"><b>5 languages.</b> Use Tebesa in Amharic, English, Afaan Oromo, Tigrinya or Somali.</div>
+    <div class="card"><b>No app to download.</b> It runs inside Telegram, so you start in seconds.</div>
+    <div class="card"><b>Simple signup.</b> No long forms and no complicated registration.</div>
+    <div class="card"><b>Private by design.</b> Your Telegram ID and username are never visible to other users.</div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <ol>
+      <li>Open <a href="https://t.me/tebesadating_bot">@tebesadating_bot</a> in Telegram.</li>
+      <li>Create your profile and pick your language.</li>
+      <li>Swipe through people near you.</li>
+      <li>When you both like each other, start chatting.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Tebesa Gold</h2>
+    <ul>
+      <li>Unlimited swipes and likes</li>
+      <li>Undo your last swipe</li>
+      <li>See who liked you</li>
+      <li>Send up to 3 messages per day before matching</li>
+      <li>Stealth mode for more private browsing</li>
+    </ul>
+    <div class="prices">
+      <div class="price">Daily (1 day)<b>50 ETB</b><span class="muted">or 150 Stars</span></div>
+      <div class="price">Weekly (7 days)<b>200 ETB</b><span class="muted">or 450 Stars</span></div>
+      <div class="price">Monthly (30 days)<b>600 ETB</b><span class="muted">or 1,150 Stars</span></div>
+    </div>
+    <p class="muted" style="margin-top:12px">Pay with Telebirr or Telegram Stars.</p>
+  </section>
+
+  <section>
+    <h2>Frequently asked questions</h2>
+    <h3>What is Tebesa Dating?</h3>
+    <p>A dating bot and mini app inside Telegram. You swipe, match and chat without installing anything.</p>
+    <h3>Do I need to download an app?</h3>
+    <p>No. Just open the bot in Telegram.</p>
+    <h3>Will other users see my Telegram username?</h3>
+    <p>No. Your Telegram ID and username are never shown.</p>
+    <h3>Which languages are supported?</h3>
+    <p>Amharic, English, Afaan Oromo, Tigrinya and Somali.</p>
+    <h3>How do I pay for Gold?</h3>
+    <p>With Telebirr or Telegram Stars. Prices are 50, 200 and 600 ETB, or 150, 450 and 1,150 Stars.</p>
+    <h3>Is it for adults only?</h3>
+    <p>Yes. Tebesa is for people aged 18 and over.</p>
+  </section>
+</main>
+
+<div class="wrap"><hr></div>
+
+<!-- ============ AMHARIC ============ -->
+<main class="wrap" lang="am">
+  <header class="hero">
+    <h1><span>Tebesa Dating</span><br>በቴሌግራም የፍቅር ጓደኛ መፈለጊያ</h1>
+    <p class="muted">አዳዲስ ሰዎችን ይተዋወቁ፣ ይጣመሩ እና ይወያዩ። ምንም መተግበሪያ ማውረድ አያስፈልግም። የቴሌግራም ID እና username በፍጹም አይታይም።</p>
+    <a class="btn" href="https://t.me/tebesadating_bot">በቴሌግራም ይክፈቱ</a>
+  </header>
+
+  <section>
+    <h2>ለምን Tebesa?</h2>
+    <div class="card"><b>በ5 ቋንቋዎች።</b> አማርኛ፣ እንግሊዝኛ፣ ኦሮምኛ፣ ትግርኛ እና ሶማልኛ።</div>
+    <div class="card"><b>መተግበሪያ ማውረድ አያስፈልግም።</b> በቴሌግራም ውስጥ ይሰራል፣ በሰከንዶች ውስጥ ይጀምራሉ።</div>
+    <div class="card"><b>ቀላል ምዝገባ።</b> ረጅም ፎርም ወይም ውስብስብ ምዝገባ የለም።</div>
+    <div class="card"><b>ግላዊነትዎ የተጠበቀ ነው።</b> የቴሌግራም ID እና username ለሌሎች ተጠቃሚዎች በፍጹም አይታይም።</div>
+  </section>
+
+  <section>
+    <h2>እንዴት ይሰራል?</h2>
+    <ol>
+      <li>በቴሌግራም <a href="https://t.me/tebesadating_bot">@tebesadating_bot</a> ን ይክፈቱ።</li>
+      <li>ፕሮፋይልዎን ይፍጠሩ እና ቋንቋ ይምረጡ።</li>
+      <li>በአቅራቢያዎ ያሉ ሰዎችን ስዋይፕ ያድርጉ።</li>
+      <li>ሁለታችሁም ስትዋደዱ መወያየት ይጀምሩ።</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>ጠበሳ ጎልድ (Tebesa Gold)</h2>
+    <ul>
+      <li>ገደብ የለሽ ስዋይፕ እና ውደታ</li>
+      <li>የመጨረሻውን ስዋይፕ መመለስ</li>
+      <li>ማን እንደወደደዎት ማየት</li>
+      <li>ከመጣመርዎ በፊት በቀን እስከ 3 መልእክት መላክ</li>
+      <li>ይበልጥ በስውር ለመመልከት ስውር ሁነታ</li>
+    </ul>
+    <div class="prices">
+      <div class="price">ዕለታዊ (1 ቀን)<b>50 ብር</b><span class="muted">ወይም 150 Stars</span></div>
+      <div class="price">ሳምንታዊ (7 ቀን)<b>200 ብር</b><span class="muted">ወይም 450 Stars</span></div>
+      <div class="price">ወርሃዊ (30 ቀን)<b>600 ብር</b><span class="muted">ወይም 1,150 Stars</span></div>
+    </div>
+    <p class="muted" style="margin-top:12px">በቴሌብር ወይም በቴሌግራም Stars መክፈል ይችላሉ።</p>
+  </section>
+
+  <section>
+    <h2>ተደጋጋሚ ጥያቄዎች</h2>
+    <h3>Tebesa Dating ምንድን ነው?</h3>
+    <p>በቴሌግራም ውስጥ የሚሰራ የፍቅር ጓደኛ መፈለጊያ ቦት ነው። ምንም ነገር ሳይጭኑ ስዋይፕ ያደርጋሉ፣ ይጣመራሉ እና ይወያያሉ።</p>
+    <h3>መተግበሪያ ማውረድ ያስፈልጋል?</h3>
+    <p>አያስፈልግም። ቦቱን በቴሌግራም ብቻ ይክፈቱ።</p>
+    <h3>የቴሌግራም username ለሌሎች ይታያል?</h3>
+    <p>አይታይም። የቴሌግራም ID እና username በፍጹም አይታይም።</p>
+    <h3>የትኞቹ ቋንቋዎች ይደገፋሉ?</h3>
+    <p>አማርኛ፣ እንግሊዝኛ፣ ኦሮምኛ፣ ትግርኛ እና ሶማልኛ።</p>
+    <h3>ለጎልድ እንዴት እከፍላለሁ?</h3>
+    <p>በቴሌብር ወይም በቴሌግራም Stars። ዋጋው 50፣ 200 እና 600 ብር ወይም 150፣ 450 እና 1,150 Stars ነው።</p>
+    <h3>ለአዋቂዎች ብቻ ነው?</h3>
+    <p>አዎ። Tebesa ዕድሜያቸው 18 እና ከዚያ በላይ ለሆኑ ብቻ ነው።</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p><a href="https://t.me/tebesadating_bot">t.me/tebesadating_bot</a></p>
+  <p>18+ only · © Tebesa Dating</p>
+</footer>
+
+</body>
+</html>

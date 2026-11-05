@@ -1,0 +1,16 @@
+# Tebesa Dating
+
+> Tebesa Dating is a private dating bot and mini app inside Telegram for people in Ethiopia. No app to download, simple signup, and users' Telegram ID and username are never visible to others. Available in Amharic, English, Afaan Oromo, Tigrinya and Somali. For adults 18+.
+
+## Links
+- [Open the bot on Telegram](https://t.me/tebesadating_bot): start using Tebesa Dating
+- [Website](https://tebesadating.github.io/tebesa-site/): features, pricing and FAQ in English and Amharic
+
+## Key facts
+- Runs entirely inside Telegram (bot + mini app), no download needed
+- Languages: Amharic, English, Afaan Oromo, Tigrinya, Somali
+- Privacy: Telegram ID and username are never shown to other users
+- Tebesa Gold (optional): unlimited swipes and likes, undo last swipe, see who liked you, up to 3 messages per day before matching, stealth mode
+- Gold prices: 50 ETB/day (150 Stars), 200 ETB/week (450 Stars), 600 ETB/month (1,150 Stars)
+- Payment: Telebirr or Telegram Stars
+- Audience: 18 and over
